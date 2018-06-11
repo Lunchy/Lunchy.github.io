@@ -1,0 +1,134 @@
+
+body {
+    height: 100vh;
+  overflow: hidden;
+}
+h1 {
+  font-family: "Bauhaus 93";
+  font-size: 80px;
+  margin: 0px;
+  padding: 0px;
+}
+
+h2 {
+  font-family: "Bauhaus 93";
+  font-size: 50px;
+}
+
+main {
+    position: relative;
+}
+
+div {
+    position: absolute;
+}
+
+#finishedLevel {
+    margin-top: 10%;
+}
+
+.levelButton {
+  width: 100px;
+  height: 70px;
+  text-align: center;
+  font-size: 50px;
+  font-family: "Bauhaus 93";
+  background-color: darkorange;
+}
+
+#levelSelectDiv {
+  width: 100vw;
+  height: 100vh;
+  z-index: 4;
+  background: url("img/LevelBackgrounds/Forest.png");
+  background-size: cover;
+  text-align: center;
+}
+
+#SuccessScreen {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 2;
+    background-color: rgba(00, 255, 00, .4);
+    text-align: center;
+}
+
+#FailureScreen {
+    visibility: hidden;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1;
+    background-color: rgba(255, 00, 00, .4);
+    text-align: center;
+}
+
+#GameField {
+    background-image: url("img/LevelBackgrounds/Grasslands.png");
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    z-index: 3;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+#buttonTable {
+  margin-left: auto;
+  margin-right: auto;
+  border-spacing: 50px 20px;
+}
+
+td {
+    width: 25px;
+    height: 25px;
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+tr {
+    border: 0px;
+    padding: 0px;
+    border-spacing: 0px;
+}
+
+.player {
+    background-image: url("alien.ico");
+    background-size: cover;
+}
+
+.walker {
+    background-image: url("img/Walker/walker.gif");
+    background-size: cover;
+}
+
+.brick {
+    background-image: url("img/Brick/Brick.png");
+    background-size: cover;
+}
+
+.air {
+}
+
+.grass {
+    background-image: url("img/Grass/GrassCenterCenter.png");
+    background-size: cover;
+}
+
+.goal {
+    background-image: url("img/Goal/Goal.gif");
+    background-size: cover;
+}
+
+.noneClass {
+    background-color: black !important;
+}
+
+table {
+    border: 5px solid black;
+    border-collapse: collapse;
+    border-spacing: 0px;
+}
+
