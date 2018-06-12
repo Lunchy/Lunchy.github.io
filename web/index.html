@@ -4,7 +4,7 @@
     <meta name="scaffolded-by" content="https://github.com/google/stagehand">
     <title>JumpyMan</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
-    <link rel="icon" href="alien.ico">
+    <link rel="icon" href="img/alien.ico">
     <script defer="" src="main.dart.js"></script>
     
 </head>
@@ -104,17 +104,21 @@
                     </td>
                 </tr>
             </tbody></table>
+            <p>Tap right to Jump</p>
+            <p>Tap left to activate Power Up</p>
         </div>
         <div id="SuccessScreen">
             <h1 id="SuccessLevel">Level geschafft!</h1>
-            <button id="nextLevel">Nächstes Level spielen</button>
-            <button id="backToLevelSelect">Zurück zur Levelauswahl</button>
+            <button id="backToLevelSelect" class="menuControls"></button>
+            <button id="nextLevel" class="menuControls"></button>
         </div>
         <div id="FailureScreen">
-            <h1 id="FailureLevel">Level geschafft!</h1>
-            <button id="retryLevel">Nächstes Level spielen</button>
-            <button id="backToLevelSelect_Failure">Zurück zur Levelauswahl</button>
+            <h1 id="FailureLevel">Game Over!</h1>
+            <button id="backToLevelSelect_Failure" class="menuControls"></button>
+            <button id="retryLevel" class="menuControls"></button>
         </div>
+        <button id="jumpButton" class="mobileControls"></button>
+        <button id="powerUpButton" class="mobileControls"></button>
         <table id="GameField"></table>
     </main>
 

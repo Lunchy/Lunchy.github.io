@@ -1,8 +1,10 @@
 
 body {
-    height: 100vh;
+  height: 100vh;
+  width: 100vw;
   overflow: hidden;
 }
+
 h1 {
   font-family: "Bauhaus 93";
   font-size: 80px;
@@ -15,12 +17,61 @@ h2 {
   font-size: 50px;
 }
 
+p {
+    font-family: "Bauhaus 93";
+    font-size: 50px;
+}
+
 main {
     position: relative;
 }
 
 div {
     position: absolute;
+}
+
+.menuControls {
+    button: focus;
+    outline: 0;
+    margin-top: 30vh;
+    border: none;
+    width: 64px;
+    height: 64px;
+    background-size: cover;
+}
+
+#backToLevelSelect {
+    margin-right: 20px;
+    background: url("img/Buttons/backToMenuButton.png");
+}
+
+#backToLevelSelect_Failure {
+    margin-right: 20px;
+    background: url("img/Buttons/backToMenuButton.png");
+}
+
+#retryLevel {
+    margin-left: 20px;
+    background: url("img/Buttons/retryLevelButton.png");
+}
+
+#nextLevel {
+    margin-left: 20px;
+    background: url("img/Buttons/nextLevelButton.png");
+}
+
+#powerUpButton {
+    margin-left: 50vw;
+}
+
+.mobileControls {
+    button: focus;
+    outline: 0;
+    background: transparent;
+    border: none !important;
+    position: absolute;
+    height: 100vh;
+    width: 50vw;
 }
 
 #finishedLevel {
@@ -81,8 +132,8 @@ div {
 }
 
 td {
-    width: 25px;
-    height: 25px;
+    width: 5vh;
+    height: 5vh;
     border: 0px;
     padding: 0px;
     border-spacing: 0px;
@@ -95,12 +146,12 @@ tr {
 }
 
 .player {
-    background-image: url("alien.ico");
+    background-image: url("img/alien.ico");
     background-size: cover;
 }
 
 .walker {
-    background-image: url("img/Walker/walker.gif");
+    background-image: url("img/Enemys/Walker/walker.gif");
     background-size: cover;
 }
 
