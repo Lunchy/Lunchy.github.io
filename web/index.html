@@ -1,6 +1,14 @@
 <!DOCTYPE html><html><head>
+    <style type="text/css" media="print">
+        @page {
+            size: landscape;
+        }
+        body {
+            writing-mode: tb-rl;
+        }
+    </style>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <meta name="scaffolded-by" content="https://github.com/google/stagehand">
     <title>JumpyMan</title>
     <link rel="stylesheet" href="styles.css" type="text/css">
@@ -117,6 +125,7 @@
             <button id="backToLevelSelect_Failure" class="menuControls"></button>
             <button id="retryLevel" class="menuControls"></button>
         </div>
+        <div id="powerUpLabel"></div>
         <button id="jumpButton" class="mobileControls"></button>
         <button id="powerUpButton" class="mobileControls"></button>
         <table id="GameField"></table>
