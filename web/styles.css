@@ -131,6 +131,7 @@ div {
     border: 0px;
     padding: 0px;
     border-spacing: 0px;
+    size: landscape;
 }
 
 #buttonTable {
