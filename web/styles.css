@@ -79,6 +79,7 @@ div {
 }
 
 .mobileControls {
+    -webkit-appearance: none;
     button: focus;
     outline: 0;
     background: transparent;
