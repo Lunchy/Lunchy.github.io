@@ -3,31 +3,37 @@ body {
   height: 100vh;
   width: 100vw;
     overflow: hidden;
+    margin: 0px;
+    padding: 0px;
 }
 
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 80px;
+  font-size: 5vh;
   margin: 0px;
   padding: 0px;
 }
 
 h2 {
   font-family: Georgia, Times, "Times New Roman", serif;
-  font-size: 5vh;
+  font-size: 3vh;
 }
 
 p {
     font-family: Georgia, Times, "Times New Roman", serif;
-    font-size: 5vh;
+    font-size: 2vh;
 }
 
 main {
     position: relative;
+    margin: 0px;
+    padding: 0px;
 }
 
 div {
     position: absolute;
+    margin: 0px;
+    padding: 0px;
 }
 
 #powerUpLabel {
@@ -49,22 +55,22 @@ div {
 }
 
 #backToLevelSelect {
-    margin-right: 20px;
+    margin-right: 10vh;
     background: url("img/Buttons/backToMenuButton.png");
 }
 
 #backToLevelSelect_Failure {
-    margin-right: 20px;
+    margin-right: 10vh;
     background: url("img/Buttons/backToMenuButton.png");
 }
 
 #retryLevel {
-    margin-left: 20px;
+    margin-left: 10vh;
     background: url("img/Buttons/retryLevelButton.png");
 }
 
 #nextLevel {
-    margin-left: 20px;
+    margin-left: 10vh;
     background: url("img/Buttons/nextLevelButton.png");
 }
 
@@ -87,12 +93,12 @@ div {
 }
 
 .levelButton {
-  width: 100px;
-  height: 70px;
+  width: 25vw;
+  height: 10vh;
   text-align: center;
   font-size: 50px;
   font-family: Georgia, Times, "Times New Roman", serif;
-  background-color: darkorange;
+  background-color: sandybrown;
 }
 
 #levelSelectDiv {
@@ -131,8 +137,7 @@ div {
     text-align: center;
     color: white;
     align-content: center;
-    margin-top: 50vh;
-    font-size: 90vw;
+    font-size: 25vw;
     font-family: Georgia, Times, "Times New Roman", serif;
 }
 
@@ -151,7 +156,9 @@ div {
 #buttonTable {
   margin-left: auto;
   margin-right: auto;
-  border-spacing: 50px 20px;
+    height: 50vh;
+    width:50vw;
+  border-spacing: 5vw;
 }
 
 td {
