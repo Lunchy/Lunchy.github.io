@@ -4227,7 +4227,7 @@ w=y.length
 if(18>=w)return H.a(y,18)
 y=y[18]
 if(90>=y.length)return H.a(y,90)
-y[90]=new U.cd(z,90,18,!0,!1,!0,"goal")
+y[90]=new U.cd(z,90,18,!1,!1,!0,"goal")
 R.cC(z,0,18,150)
 return z},
 c9:function(){var z,y,x,w,v,u,t,s,r,q,p,o
@@ -4273,13 +4273,21 @@ if(18>=v)return H.a(w,18)
 u=w[18]
 if(22>=u.length)return H.a(u,22)
 u[22]=new X.j(z,22,18,!1,!1,!1,"brick")
+if(18>=v)return H.a(w,18)
+u=w[18]
+if(23>=u.length)return H.a(u,23)
+u[23]=new X.j(z,23,18,!1,!1,!1,"brick")
+if(18>=v)return H.a(w,18)
+u=w[18]
+if(24>=u.length)return H.a(u,24)
+u[24]=new X.j(z,24,18,!1,!1,!1,"brick")
 u=new V.bw()
-s=new V.bx(null,!1,!0,null,u,null,null,null,null,0,z,23,18,!1,!0,!1,"jumper")
+s=new V.bx(null,!1,!0,null,u,null,null,null,null,0,z,25,18,!1,!0,!1,"jumper")
 if(18>=v)return H.a(w,18)
 w=w[18]
-if(23>=w.length)return H.a(w,23)
-w[23]=s
-s.E(z,23,18,!1,!0,!0,u,null,null,200,0,"jumper")
+if(25>=w.length)return H.a(w,25)
+w[25]=s
+s.E(z,25,18,!1,!0,!0,u,null,null,350,0,"jumper")
 y.push(s)
 for(w=z.a,o=27;o<=35;++o){v=w.length
 if(16>=v)return H.a(w,16)
@@ -4305,7 +4313,7 @@ v=w.length
 if(18>=v)return H.a(w,18)
 u=w[18]
 if(95>=u.length)return H.a(u,95)
-u[95]=new U.cd(z,95,18,!0,!1,!0,"goal")
+u[95]=new U.cd(z,95,18,!1,!1,!0,"goal")
 u=new L.aR()
 s=new D.b6(null,!1,!0,null,u,null,null,null,null,-1,z,33,15,!1,!0,!1,"walker")
 if(15>=v)return H.a(w,15)
