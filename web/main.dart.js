@@ -3689,6 +3689,7 @@ as:function(){var z,y,x,w,v,u,t
 for(z=this.c,y=z.length,x=0;x<z.length;z.length===y||(0,H.N)(z),++x)z[x].F()
 this.d.F()
 z=this.a
+z.fy=!1
 y=z.d
 w=y.style
 w.zIndex="1"
@@ -3728,6 +3729,7 @@ ci:function(){var z,y,x,w,v,u,t
 for(z=this.c,y=z.length,x=0;x<z.length;z.length===y||(0,H.N)(z),++x)z[x].F()
 this.d.F()
 z=this.a
+z.fy=!1
 y=z.d
 w=y.style
 w.zIndex="1"
@@ -3835,7 +3837,7 @@ $1:function(a){return this.a.bS(a,this.b)}},e8:{"^":"h:0;a",
 $1:function(a){var z,y
 z=this.a
 y=z.b
-return z.a.dW(y,y.b)}}}],["","",,N,{"^":"",V:{"^":"b;"}}],["","",,L,{"^":"",e9:{"^":"b;a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr,fx",
+return z.a.dW(y,y.b)}}}],["","",,N,{"^":"",V:{"^":"b;"}}],["","",,L,{"^":"",e9:{"^":"b;a,b,c,d,e,f,r,x,y,z,Q,ch,cx,cy,db,dx,dy,fr,fx,fy",
 ad:function(a){var z
 switch(a){case 0:z=this.f.style
 z.backgroundImage="url(../img/PowerUps/higherJumpPowerUp.png)"
@@ -3883,7 +3885,8 @@ w=window.innerWidth
 t=window.innerHeight
 if(typeof w!=="number")return w.ac()
 if(typeof t!=="number")return H.D(t)
-if(w<t){w=this.cx
+if(w<t){this.fy=!1
+w=this.cx
 if(!(w==null))w.e=!0
 w=this.e
 t=w.style
@@ -3912,7 +3915,7 @@ t=this.f.style
 t.visibility="hidden"
 w=w.style
 w.visibility="visible"
-return}else this.ae()
+return}else if(!this.fy)this.ae()
 w=this.cy
 t=window.innerWidth
 if(w==null?t==null:w===t){w=this.db
@@ -3966,6 +3969,7 @@ q=z[j]
 if(k<0||k>=q.length)return H.a(q,k)
 r.B(0,q[k].r)}}}},
 ae:function(){var z,y,x,w,v,u
+this.fy=!0
 z=this.cx
 if(!(z==null))z.e=!1
 z=this.d
@@ -3996,6 +4000,7 @@ z.visibility="hidden"
 z=v.style
 z.visibility="hidden"},
 b6:function(){var z,y,x,w,v,u
+this.fy=!1
 z=this.d
 y=z.style
 y.zIndex="0"
@@ -4045,7 +4050,7 @@ y=J.af(w)
 W.S(y.a,y.b,new L.ec(this,x),!1,H.z(y,0))}},
 l:{
 ea:function(a){var z=document
-z=new L.e9(z.querySelector("#levelSelectDiv"),z.querySelector("#SuccessScreen"),z.querySelector("#FailureScreen"),z.querySelector("#GameField"),z.querySelector("#PauseScreen"),z.querySelector("#powerUpLabel"),H.p([],[W.dM]),z.querySelector("#backToLevelSelect"),z.querySelector("#nextLevel"),z.querySelector("#backToLevelSelect_Failure"),z.querySelector("#retryLevel"),a,null,null,null,null,10,null,null)
+z=new L.e9(z.querySelector("#levelSelectDiv"),z.querySelector("#SuccessScreen"),z.querySelector("#FailureScreen"),z.querySelector("#GameField"),z.querySelector("#PauseScreen"),z.querySelector("#powerUpLabel"),H.p([],[W.dM]),z.querySelector("#backToLevelSelect"),z.querySelector("#nextLevel"),z.querySelector("#backToLevelSelect_Failure"),z.querySelector("#retryLevel"),a,null,null,null,null,10,null,null,!1)
 z.cu(a)
 return z}}},eb:{"^":"h:0;a",
 $1:function(a){var z=this.a
