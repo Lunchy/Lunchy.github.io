@@ -1,3 +1,21 @@
+@media screen {
+    div#preloader {
+        position: absolute;
+        left: -9999px;
+        top:  -9999px;
+    }
+    div#preloader img {
+        display: block;
+    }
+}
+@media print {
+    div#preloader,
+    div#preloader img {
+        visibility: hidden;
+        display: none;
+    }
+}
+
 
 body {
   height: 100vh;
@@ -37,6 +55,7 @@ div {
 }
 
 #powerUpLabel {
+    background: url("img/PowerUps/noPowerUp.png");
     margin-left: 80vw;
     margin-top: 5vh;
     height: 10vh;
@@ -197,7 +216,7 @@ tr {
 }
 
 .brick {
-    background-image: url("img/Brick/Unbenannt-3.png");
+    background-image: url("img/Brick/Brick.png");
     background-size: cover;
 }
 
@@ -211,7 +230,7 @@ tr {
 }
 
 .grass {
-    background-image: url("img/Grass/Unbenannt-4.png");
+    background-image: url("img/Grass/GrassCenterCenter.png");
     background-size: cover;
 }
 
