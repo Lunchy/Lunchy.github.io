@@ -69,7 +69,6 @@ div {
 }
 
 .menuControls {
-    button: focus;
     outline: 0;
     margin-top: 30vh;
     border: none;
@@ -105,7 +104,6 @@ div {
 .mobileControls {
     -webkit-tap-highlight-color: rgba(0,0,0,0);
     -webkit-appearance: none;
-    button: focus;
     outline: 0;
     background: transparent;
     border: none !important;
