@@ -25,16 +25,16 @@ body {
   height: 100vh;
   width: 100vw;
   overflow: hidden;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   touch-action: manipulation;
 }
 
 h1 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-size: 5vh;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 h2 {
@@ -49,14 +49,14 @@ p {
 
 main {
     position: relative;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 div {
     position: absolute;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
 }
 
 #powerUpLabel {
@@ -133,6 +133,7 @@ div {
     width: 50vw;
 }
 
+/*noinspection ALL*/
 #finishedLevel {
     margin-top: 10%;
 }
@@ -201,9 +202,9 @@ div {
     height: 100vh;
     width: 100vw;
     z-index: 3;
-    border: 0px;
-    padding: 0px;
-    border-spacing: 0px;
+    border: 0;
+    padding: 0;
+    border-spacing: 0;
     size: landscape;
 }
 
@@ -227,46 +228,55 @@ div {
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .walker {
     background-image: url("img/Enemys/Walker/walker.gif");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .slime {
     background-image: url("img/Enemys/Slime/Slime.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .jumper {
     background-image: url("img/Enemys/Jumper/Jumper.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .brick {
     background-image: url("img/Brick/Brick.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .projectile {
     background-image: url("img/Projectile/projectile.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .powerUpBlock {
     background-image: url("img/PowerUps/powerUpBlock.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .grass {
     background-image: url("img/Grass/GrassCenterCenter.png");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .goal {
     background-image: url("img/Goal/Goal.gif");
     background-size: cover;
 }
 
+/*noinspection CssUnusedSymbol*/
 .noneClass {
     background-color: black !important;
 }
